@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClockCamera</string>
+    <string name="explanation">My friend will write your name and press the button.</string>
+    <string name="hello_friend">Hello my friend:)</string>
+    <string name="your_name">your name</string>
+    <string name="camera">CAMERA</string>
+    <string name="this_is_a_clock">this is a clock?</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  -The main xml for first assignment of cyber lesson
+  -Author Alexey Titov
+  -date 10.2018
+  -version 2.0
+ -->
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/tvPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="@string/this_is_a_clock"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/capturedImage"
+        android:background="@drawable/background"
+        android:layout_above="@+id/tvPicture"/>
+</android.widget.RelativeLayout>
